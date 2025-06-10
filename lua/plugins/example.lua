@@ -16,6 +16,16 @@ return {
     },
   },
 
+  {
+    "folke/snacks.nvim",
+    ---@type snacks.Config
+    opts = {
+      explorer = {
+        replace_netrw = false,
+      }
+    }
+  },
+
   -- override nvim-cmp and add cmp-emoji
   {
     "hrsh7th/nvim-cmp",
